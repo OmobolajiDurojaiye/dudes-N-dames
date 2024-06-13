@@ -19,7 +19,6 @@ header {
   width: 80%;
   position: fixed;
   left: 10%;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,7 +30,6 @@ header {
 
 .logo,
 nav {
-  /* border: 1px solid green; */
   height: max-content;
   width: max-content;
   padding: 20px;
@@ -41,7 +39,6 @@ nav {
   cursor: pointer;
   border: 1px solid #cec097;
   border-radius: 10px;
-  /* background: #cec097; */
   padding: 10px;
   transition: 0.5s;
 }
@@ -76,7 +73,6 @@ nav ul li a {
 .banner {
   margin-top: 17vh;
   height: 70vh;
-  /* border: 1px solid red; */
   width: 80%;
   position: relative;
   left: 10%;
@@ -90,7 +86,6 @@ nav ul li a {
 .banner .banner-division {
   width: 50%;
   height: inherit;
-  /* border: 1px solid green; */
 }
 
 .banner .left {
@@ -158,14 +153,12 @@ nav ul li a {
   width: 80%;
   left: 10%;
   margin: 2vh 0;
-  /* border: 1px solid red; */
 }
 
 .what-we-do .box {
   height: 30vh;
   width: 45%;
   margin: 1%;
-  /* border: 1px solid red; */
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -195,20 +188,9 @@ nav ul li a {
   width: max-content;
   padding: 10px;
   margin-top: 2vh;
-  /* border: 1px solid red; */
   background-color: white;
   cursor: pointer;
 }
-
-/* .what-we-do .title {
-  position: absolute;
-  top: 0;
-  height: 10vh;
-  left: 10px;
-  margin: 20px 0;
-  font-size: 1.5em;
-  color: black;
-} */
 
 .experience {
   margin: 2vh 0;
@@ -216,7 +198,6 @@ nav ul li a {
   width: 80%;
   position: relative;
   left: 10%;
-  /* border: 1px solid red; */
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   display: flex;
@@ -225,7 +206,6 @@ nav ul li a {
 .experience .experienceBox {
   height: inherit;
   flex: 1;
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -247,7 +227,6 @@ nav ul li a {
   position: relative;
   left: 10%;
   width: 80%;
-  /* border: 1px solid red; */
   box-shadow: 0px 0px 50px -3px rgba(0, 0, 0, 0.1);
   margin: 5vh 0;
 }
@@ -255,7 +234,6 @@ nav ul li a {
 .priceHead {
   height: max-content;
   width: 100%;
-  /* border: 1px solid green; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -273,11 +251,8 @@ nav ul li a {
 }
 
 .pricingBox {
-  /* position: relative; */
-  /* border: 2px dotted #ffffff; */
   height: max-content;
   flex: 1;
-  /* align-items: flex-start; */
   background-color: #f0f0f0;
   padding: 20px;
   margin: 2vh 10px;
@@ -322,7 +297,6 @@ h3 {
   position: relative;
   left: 10%;
   margin: 5vh 0;
-  /* border: 1px solid red; */
   box-shadow: 0px -67px 30px -45px rgba(0, 0, 0, 0.1);
 }
 
@@ -330,7 +304,6 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid red; */
   padding: 5px;
 }
 
@@ -355,7 +328,6 @@ h3 {
 
 .textimonial .testimonialBox {
   flex: 1;
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -437,7 +409,6 @@ h3 {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70%;
-
   background-color: white;
   padding: 4rem;
   border-radius: 20px;
@@ -462,14 +433,12 @@ h3 {
   width: 80%;
   position: relative;
   top: 2vh;
-  /* border: 1px solid red; */
 }
 
 .socialMedia a {
   font-size: 1em;
   line-height: 3;
   color: #333;
-  /* padding: 20px; */
 }
 
 footer {
@@ -491,12 +460,10 @@ footer .section {
   flex: 1;
   height: 35vh;
   padding: 10px;
-  /* border: 1px solid red; */
 }
 
 footer h2 {
   font-size: 1.6em;
-  /* color: #4d756a; */
   text-decoration: underline;
   margin: 10px 0;
 }
@@ -522,7 +489,6 @@ footer .letstalk {
   padding: 10px;
   height: max-content;
   width: max-content;
-  /* border: 1px solid red; */
 }
 
 .footersocial .box {
@@ -547,10 +513,6 @@ footer .letstalk {
   color: #fff;
 }
 
-/* .footersocial .box:hover {
-  background-color: #4d756a;
-} */
-
 .contact-list {
   list-style: none;
   padding: 0;
@@ -574,7 +536,6 @@ footer .letstalk {
   width: 80%;
   left: 10%;
   height: 5vh;
-  /* border: 1px solid royalblue; */
   border: 2px solid #488877;
   display: flex;
   justify-content: space-between;
@@ -584,5 +545,126 @@ footer .letstalk {
 .devrefrence .refrence {
   height: max-content;
   flex: 1;
-  /* padding: 10px; */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .right img {
+    max-width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 992px) {
+  header {
+    width: 100%;
+    left: 0;
+  }
+  .banner {
+    width: 100%;
+    left: 0;
+  }
+
+  footer {
+    margin-top: 20px;
+  }
+
+  footer,
+  .devrefrence {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    padding: 20px;
+  }
+
+  .experience .experienceBox {
+    margin: 10px;
+  }
+
+  .customerTestimonial {
+    position: relative;
+    bottom: 20vh 0;
+    height: max-content;
+    padding: 20px;
+    margin-bottom: 70vh;
+  }
+
+  .what-we-do .box {
+    height: max-content;
+    margin: 10px 0;
+  }
+
+  .devrefrence {
+    height: max-content;
+  }
+
+  .what-we-do,
+  .experience,
+  .prices,
+  .customerTestimonial,
+  .socialMedia,
+  footer,
+  .devrefrence {
+    width: 100%;
+    left: 0;
+  }
+  .pricings {
+    flex-direction: column;
+  }
+  .pricingBox {
+    margin: 2vh 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo p {
+    font-size: 2em;
+  }
+  .banner .left h1 {
+    font-size: 3em;
+  }
+  .banner .left p {
+    font-size: 1em;
+  }
+  .bannerBtn {
+    font-size: 0.7em;
+  }
+  .right img {
+    max-width: 100%;
+  }
+  .what-we-do .box {
+    width: 90%;
+  }
+  .experience .experienceBox h1 {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 576px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li a {
+    margin: 10px;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .banner .banner-division {
+    width: 100%;
+  }
+  .textimonial {
+    flex-direction: column;
+  }
+  .textimonial .testimonialBox:not(:last-child)::after {
+    display: none;
+  }
+  .show-modal {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
 }
