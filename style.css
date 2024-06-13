@@ -133,13 +133,15 @@ nav ul li a {
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
+  position: relative;
+  /* overflow: hidden; */
 }
 
 .right img {
-  max-width: calc(33.33% - 10px);
-  max-height: 100%;
-  object-fit: contain;
-  flex: 1 1 auto;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 .what-we-do {
@@ -559,6 +561,16 @@ footer .letstalk {
     width: 100%;
     left: 0;
   }
+
+  nav ul a {
+    margin: 5vh 0;
+    padding: 10vh 0;
+  }
+
+  .socialMediaModal {
+    border: none;
+  }
+
   .banner {
     width: 100%;
     left: 0;
