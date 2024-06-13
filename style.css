@@ -173,6 +173,7 @@ nav ul li a {
   box-shadow: 0px 0px 50px -3px rgba(0, 0, 0, 0.1);
   transition: 0.2s;
   background-color: #fcfbf7;
+  cursor: pointer;
 }
 
 .what-we-do .box h3 {
@@ -209,6 +210,37 @@ nav ul li a {
   color: black;
 } */
 
+.experience {
+  margin: 2vh 0;
+  height: 20vh;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  /* border: 1px solid red; */
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+}
+
+.experience .experienceBox {
+  height: inherit;
+  flex: 1;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience .experienceBox h1 {
+  font-size: 4em;
+  color: #4d756a;
+}
+
+.experience .experienceBox p {
+  color: #cec097;
+}
+
 .prices {
   padding: 20px;
   height: max-content;
@@ -237,7 +269,7 @@ nav ul li a {
 
 .pricings {
   display: flex;
-  justify-content: space-between; /* Distributes items evenly with equal space around them */
+  justify-content: space-between;
 }
 
 .pricingBox {
@@ -267,11 +299,12 @@ h3 {
   display: inline-block;
   width: 1em;
   margin-left: -1.3em;
+  margin-top: 10px;
 }
 
 .pricingBox a {
   display: inline-block;
-  background-color: #61917b; /* Button background color */
+  background-color: #61917b;
   color: white;
   text-decoration: none;
   padding: 10px 20px;
@@ -280,7 +313,95 @@ h3 {
 }
 
 .pricingBox a:hover {
-  background-color: #4d756a; /* Darker shade on hover */
+  background-color: #4d756a;
+}
+
+.customerTestimonial {
+  height: max-content;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  margin: 5vh 0;
+  /* border: 1px solid red; */
+  box-shadow: 0px -67px 30px -45px rgba(0, 0, 0, 0.1);
+}
+
+.customerTestimonialHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  padding: 5px;
+}
+
+.customerTestimonialHead p {
+  color: #4d756a;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 1.3em;
+}
+
+.textimonial {
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  background-image: radial-gradient(#4d756a 1px, transparent 1px);
+  background-size: 10px 10px;
+  padding: 1px;
+}
+
+.textimonial .testimonialBox {
+  flex: 1;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.textimonial .testimonialBox:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: 0;
+  width: 2px;
+  background-color: #4d756a;
+}
+
+.textimonial .testimonialBox .head {
+  height: max-content;
+  padding: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.textimonial .testimonialBox .head img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.textimonial .testimonialBox .content {
+  flex: 1;
+  width: 100%;
+  padding: 20px;
+}
+
+.textimonial .testimonialBox .content p {
+  margin: 0 10px 10px 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+}
+
+.textimonial .testimonialBox .content h3 {
+  color: #4d756a;
 }
 
 .show-modal {
@@ -349,4 +470,119 @@ h3 {
   line-height: 3;
   color: #333;
   /* padding: 20px; */
+}
+
+footer {
+  height: max-content;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  margin: 5vh 0 0 0;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  color: #fff !important;
+  background-color: #488877;
+}
+
+footer .section {
+  flex: 1;
+  height: 35vh;
+  padding: 10px;
+  /* border: 1px solid red; */
+}
+
+footer h2 {
+  font-size: 1.6em;
+  /* color: #4d756a; */
+  text-decoration: underline;
+  margin: 10px 0;
+}
+
+footer a {
+  margin: 10px 0;
+}
+
+footer p {
+  margin: 20px 0;
+  font-size: 1em;
+}
+
+footer .letstalk {
+  border: 1px solid #fff;
+  padding: 5px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.footersocial {
+  display: flex;
+  padding: 10px;
+  height: max-content;
+  width: max-content;
+  /* border: 1px solid red; */
+}
+
+.footersocial .box {
+  flex: 1;
+  height: 35px;
+  width: 35px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  border: 1px solid #fff;
+}
+
+.footersocial .box a {
+  font-size: 1em;
+  border: none !important;
+  color: #fff;
+}
+
+.footersocial .box a:hover {
+  color: #fff;
+}
+
+/* .footersocial .box:hover {
+  background-color: #4d756a;
+} */
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-item svg {
+  margin-right: 10px;
+  color: #fff;
+}
+
+.devrefrence {
+  height: max-content;
+  padding: 20px;
+  position: relative;
+  width: 80%;
+  left: 10%;
+  height: 5vh;
+  /* border: 1px solid royalblue; */
+  border: 2px solid #488877;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.devrefrence .refrence {
+  height: max-content;
+  flex: 1;
+  /* padding: 10px; */
 }
