@@ -4,6 +4,17 @@ const socialMediaModal = document.querySelector(".socialMediaModal");
 const modal = document.querySelector(".ModalContainer");
 const overlay = document.querySelector(".overlay");
 const btnCloseModal = document.querySelector(".close-modal");
+const menuButton = document.querySelector(".menubtn");
+const closeMenu = document.querySelector(".closeMenu");
+const harmburgerDeviceModal = document.querySelector(".harmburgerDeviceModal");
+
+menuButton.addEventListener("click", function () {
+  harmburgerDeviceModal.style.display = "inline";
+});
+
+closeMenu.addEventListener("click", function () {
+  harmburgerDeviceModal.style.display = "none";
+});
 
 const closeModal = function () {
   modal.classList.add("hidden");
@@ -13,6 +24,7 @@ const closeModal = function () {
 const openModal = () => {
   modal.classList.remove("hidden");
   overlay.classList.remove("hidden");
+  harmburgerDeviceModal.style.display = "none";
 };
 
 socialMediaModal.addEventListener("click", openModal);
@@ -74,6 +86,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         </div>
       `;
 
+    harmburgerDeviceModal.style.display = "none";
     // Add event listeners to gallery items
     const modal = document.getElementById("image-modal");
     const modalImg = document.getElementById("modal-image");
@@ -97,6 +110,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     };
   });
 
+  /*About page*/
   aboutButton.addEventListener("click", function () {
     main.innerHTML = `
       <div class="about-head">
@@ -140,5 +154,59 @@ document.addEventListener("DOMContentLoaded", (event) => {
         </div>
       </div>
     `;
+
+    harmburgerDeviceModal.style.display = "none";
   });
 });
+
+// const aboutButton = document.querySelector(".about");
+// const main = document.querySelector(".main");
+
+// aboutButton.addEventListener("click", function () {
+//   main.innerHTML = `
+//       <div class="about-head">
+//         <div class="site-name">
+//           <h1>dudes N dames</h1>
+//         </div>
+//         <div class="site-desc">
+//           <p>
+//             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione
+//             quis ab maiores modi eaque consequatur, explicabo beatae commodi!
+//             Deleniti itaque ut voluptates ratione neque officia corrupti
+//             molestias vero doloribus ipsam!
+//           </p>
+//         </div>
+//       </div>
+
+//       <div class="about-banner">
+//         <!-- <img src="images/about-banner-img.png" alt="" /> -->
+//       </div>
+
+//       <div class="about-owner">
+//         <div class="owner-image">
+//           <img src="images/testimonial.png" alt="" />
+//         </div>
+//         <div class="owner-desc">
+//           <h2>About the owner</h2>
+//           <p>
+//             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam
+//             repellendus libero cumque et eos dolores omnis. Reprehenderit quam,
+//             nostrum unde ea vitae sit corrupti, officia nesciunt neque libero
+//             expedita! Impedit?
+//           </p>
+//           <div class="start-projects">
+//             <div class="box">
+//               <p>start since</p>
+//               <h2>2021</h2>
+//             </div>
+//             <div class="box">
+//               <p>projects completed</p>
+//               <h2>100+</h2>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     `;
+
+//   harmburgerDeviceModal.style.display = "none";
+// });

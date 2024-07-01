@@ -8,6 +8,10 @@
   /* font-family: "Berkshire Swash", serif; */
 }
 
+/* .harmburgerDeviceModal {
+  display: inline;
+} */
+
 body {
   display: flex;
   flex-direction: column;
@@ -26,6 +30,13 @@ header {
   border-radius: 0 0 10px 10px;
   z-index: 999;
   background-color: #ffffff;
+}
+.menu {
+  display: none;
+}
+
+.menuModal {
+  display: none;
 }
 
 .main {
@@ -750,6 +761,10 @@ footer .letstalk {
   max-width: 700px;
 }
 
+.closeMenu {
+  display: none;
+}
+
 @media screen and (max-width: 700px) {
   .image-modal .modal-content {
     width: 100%;
@@ -775,14 +790,98 @@ footer .letstalk {
     left: 0;
   }
 
-  nav ul a {
-    margin: 5vh 0;
-    padding: 10vh 0;
+  .about-head {
+    flex-direction: column;
   }
 
-  .socialMediaModal {
-    border: none;
+  .site-name {
+    width: 100%;
   }
+
+  .site-name h1 {
+    font-size: 3em;
+  }
+
+  .site-desc {
+    width: 100%;
+    height: max-content;
+  }
+
+  .about-owner {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .owner-image {
+    width: 100%;
+  }
+
+  .owner-desc {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+  }
+
+  /* nav {
+    display: none;
+  } */
+
+  .harmburgerDeviceModal {
+    position: absolute;
+    height: max-content;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    background-color: white;
+    padding: 4rem;
+    border-radius: 20px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+  }
+
+  .harmburgerDeviceModal ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .harmburgerDeviceModal ul li {
+    margin: 15px;
+    font-size: 2em;
+  }
+
+  .closeMenu {
+    display: inline;
+    color: red;
+    font-size: 5em;
+  }
+
+  .menu {
+    display: inline;
+    padding: 15px;
+    /* border: 1px solid grey; */
+    /* background-color: #222; */
+  }
+
+  .menu button {
+    border: none;
+    background-color: none;
+    padding: 10px;
+  }
+
+  /* nav ul a {
+    margin: 5vh 0;
+    padding: 10vh 0;
+  } */
+
+  /* .socialMediaModal {
+    border: none;
+  } */
 
   .banner {
     width: 100%;
@@ -870,12 +969,6 @@ footer .letstalk {
 }
 
 @media (max-width: 576px) {
-  nav ul {
-    flex-direction: column;
-  }
-  nav ul li a {
-    margin: 10px;
-  }
   .banner {
     flex-direction: column;
   }
