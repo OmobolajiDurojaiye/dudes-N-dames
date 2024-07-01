@@ -28,6 +28,14 @@ header {
   background-color: #ffffff;
 }
 
+.main {
+  position: relative;
+  margin-top: 17vh;
+  /* border: 1px solid red; */
+  width: 80%;
+  left: 10%;
+}
+
 .logo,
 nav {
   height: max-content;
@@ -68,14 +76,15 @@ nav ul li a {
   margin: 21px;
   font-family: "Berkshire Swash", serif;
   color: #222;
+  cursor: pointer;
 }
 
 .banner {
-  margin-top: 17vh;
+  /* margin-top: 17vh; */
   height: 70vh;
-  width: 80%;
+  width: 100%;
   position: relative;
-  left: 10%;
+  /* left: 10%; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -152,8 +161,8 @@ nav ul li a {
   position: relative;
   height: max-content;
   padding: 10px 0;
-  width: 80%;
-  left: 10%;
+  /* width: 80%; */
+  /* left: 10%;  */
   margin: 2vh 0;
 }
 
@@ -197,9 +206,9 @@ nav ul li a {
 .experience {
   margin: 2vh 0;
   height: 20vh;
-  width: 80%;
+  /* width: 80%; */
   position: relative;
-  left: 10%;
+  /* left: 10%; */
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   display: flex;
@@ -227,8 +236,8 @@ nav ul li a {
   padding: 20px;
   height: max-content;
   position: relative;
-  left: 10%;
-  width: 80%;
+  /* left: 10%; */
+  /* width: 80%; */
   box-shadow: 0px 0px 50px -3px rgba(0, 0, 0, 0.1);
   margin: 5vh 0;
 }
@@ -295,9 +304,9 @@ h3 {
 
 .customerTestimonial {
   height: max-content;
-  width: 80%;
+  /* width: 80%; */
   position: relative;
-  left: 10%;
+  /* left: 10%; */
   margin: 5vh 0;
   box-shadow: 0px -67px 30px -45px rgba(0, 0, 0, 0.1);
 }
@@ -392,7 +401,7 @@ h3 {
 
 .close-modal {
   position: absolute;
-  top: 1.2rem;
+  top: 0.1rem;
   right: 2rem;
   font-size: 3rem;
   color: #333;
@@ -400,17 +409,18 @@ h3 {
   border: none;
   background: none;
 }
+
 .hidden {
   display: none;
 }
 
-.modal {
+.ModalContainer {
   position: absolute;
   height: max-content;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
+  width: 40%;
   background-color: white;
   padding: 4rem;
   border-radius: 20px;
@@ -547,6 +557,203 @@ footer .letstalk {
 .devrefrence .refrence {
   height: max-content;
   flex: 1;
+}
+
+/*about page*/
+.about-head {
+  height: max-content;
+  padding: 10px;
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-name,
+.site-desc {
+  height: max-content;
+  padding: 10px;
+  /* border: 1px solid black; */
+}
+
+.site-name {
+  width: max-content;
+}
+
+.site-name h1 {
+  font-size: 5em;
+}
+
+.site-desc {
+  width: 30%;
+}
+
+.about-banner {
+  margin: 20px 0;
+  height: 50vh;
+  /* padding: 10px; */
+  /* border: 1px solid green; */
+  width: 100%;
+  background-image: url(images/about-banner-img.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px 0px 100px -100px rgba(0, 0, 0, 0.1);
+}
+
+/* .about-banner img {
+  height: inherit;
+  width: inherit;
+} */
+
+.about-owner {
+  width: 100%;
+  height: max-content;
+  padding: 10px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.owner-image {
+  height: 50vh;
+  width: 25%;
+  /* border: 1px solid blue; */
+  background-color: #222;
+  border-radius: 20px;
+  box-shadow: 0px 0px 100px -100px rgba(0, 0, 0, 0.1);
+}
+
+.owner-image img {
+  height: inherit;
+  width: 100%;
+}
+
+.owner-desc {
+  height: max-content;
+  width: 40%;
+  /* border: 1px solid green; */
+}
+
+.start-projects {
+  height: max-content;
+  margin: 10px 0;
+  /* padding: 10px; */
+  width: max-content;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.start-projects .box {
+  height: max-content;
+  width: max-content;
+  /* border: 1px solid #222; */
+  margin: 0 10px;
+}
+
+.start-projects .box p {
+  font-weight: bold;
+}
+
+.start-projects .box h2 {
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+/* gallery page */
+.gallery-container {
+  height: max-content;
+  padding: 20px;
+  border: 1px solid #222;
+  background-color: #494747;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 100px -100px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-head {
+  margin: 10px;
+  height: max-content;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  flex-direction: column;
+}
+
+.gallery-head h2 {
+  font-size: 3em;
+}
+
+.gallery-item {
+  flex: 1 1 calc(25% - 20px);
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  /* border: 1px solid red; */
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Modal */
+.image-modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9); /* Black background with opacity */
+}
+
+.image-modal .close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.image-modal .close:hover,
+.image-modal .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.image-modal .modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+@media screen and (max-width: 700px) {
+  .image-modal .modal-content {
+    width: 100%;
+  }
 }
 
 /* Media Queries for Responsiveness */
