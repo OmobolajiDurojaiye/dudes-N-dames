@@ -769,6 +769,12 @@ footer .letstalk {
     left: 0;
   }
 
+  .main {
+    width: 100%;
+    position: relative;
+    left: 0;
+  }
+
   nav ul a {
     margin: 5vh 0;
     padding: 10vh 0;
