@@ -478,15 +478,59 @@ h3 {
 .ModalContainer {
   position: absolute;
   height: max-content;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 40%;
+  width: max-content;
   background-color: white;
   padding: 4rem;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
   z-index: 10;
+}
+
+.ModalContainer .contact-body {
+  height: max-content;
+  padding: 20px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.also-reach-through {
+  height: max-content;
+  width: max-content;
+  padding: 10px;
+  /* border: 1px solid red; */
+  margin: 10px o;
+}
+.reach .box {
+  width: max-content;
+  height: max-content;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reach .box img {
+  height: 50px;
+  width: 50px;
+  margin: 0 10px;
+}
+
+.ModalContainer .contact-body .box {
+  height: 50px;
+  width: 50px;
+  /* border: 1px solid green; */
+  margin: 10px;
+}
+
+.ModalContainer .contact-body .box img {
+  height: inherit;
+  width: 100%;
 }
 
 .overlay {
@@ -828,6 +872,20 @@ footer .letstalk {
   header {
     width: 100%;
     left: 0;
+  }
+
+  .ModalContainer {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .ModalContainer .contact-head,
+  .contact-body,
+  .also-reach-through {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    /* margin: 10px 0; */
   }
 
   .main {
