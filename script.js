@@ -25,6 +25,7 @@ const openModal = () => {
   modal.classList.remove("hidden");
   overlay.classList.remove("hidden");
   harmburgerDeviceModal.style.display = "none";
+  window.scrollTo(0, 0);
 };
 
 socialMediaModal.addEventListener("click", openModal);
@@ -87,6 +88,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
       `;
 
     harmburgerDeviceModal.style.display = "none";
+    window.scrollTo(0, 0);
     // Add event listeners to gallery items
     const modal = document.getElementById("image-modal");
     const modalImg = document.getElementById("modal-image");
@@ -119,10 +121,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
         </div>
         <div class="site-desc">
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione
-            quis ab maiores modi eaque consequatur, explicabo beatae commodi!
-            Deleniti itaque ut voluptates ratione neque officia corrupti
-            molestias vero doloribus ipsam!
+            Welcome to dudes N dames, where style meets innovation. 
+            Our fashion house brings together the latest trends and timeless classics, curated by visionary designers. 
+            Each piece is crafted with meticulous attention to detail, ensuring you stand out with confidence. 
+            Explore our collections and discover your unique style with dudes N dames.
           </p>
         </div>
       </div>
@@ -136,10 +138,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
         <div class="owner-desc">
           <h2>About the owner</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam
-            repellendus libero cumque et eos dolores omnis. Reprehenderit quam,
-            nostrum unde ea vitae sit corrupti, officia nesciunt neque libero
-            expedita! Impedit?
+            Meet Omotola, the visionary behind dudes N dames. 
+            With a passion for fashion and a keen eye for detail, Omotola launched her fashion journey in 2021. 
+            Her dedication to excellence and creativity has led to the completion of over 100 unique projects, 
+            each reflecting her commitment to quality and style. 
+            Tola's innovative designs and forward-thinking approach have made dudes N dames a go-to destination for fashion enthusiasts.
           </p>
           <div class="start-projects">
             <div class="box">
@@ -156,57 +159,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
     `;
 
     harmburgerDeviceModal.style.display = "none";
+    window.scrollTo(0, 0);
   });
 });
-
-// const aboutButton = document.querySelector(".about");
-// const main = document.querySelector(".main");
-
-// aboutButton.addEventListener("click", function () {
-//   main.innerHTML = `
-//       <div class="about-head">
-//         <div class="site-name">
-//           <h1>dudes N dames</h1>
-//         </div>
-//         <div class="site-desc">
-//           <p>
-//             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione
-//             quis ab maiores modi eaque consequatur, explicabo beatae commodi!
-//             Deleniti itaque ut voluptates ratione neque officia corrupti
-//             molestias vero doloribus ipsam!
-//           </p>
-//         </div>
-//       </div>
-
-//       <div class="about-banner">
-//         <!-- <img src="images/about-banner-img.png" alt="" /> -->
-//       </div>
-
-//       <div class="about-owner">
-//         <div class="owner-image">
-//           <img src="images/testimonial.png" alt="" />
-//         </div>
-//         <div class="owner-desc">
-//           <h2>About the owner</h2>
-//           <p>
-//             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam
-//             repellendus libero cumque et eos dolores omnis. Reprehenderit quam,
-//             nostrum unde ea vitae sit corrupti, officia nesciunt neque libero
-//             expedita! Impedit?
-//           </p>
-//           <div class="start-projects">
-//             <div class="box">
-//               <p>start since</p>
-//               <h2>2021</h2>
-//             </div>
-//             <div class="box">
-//               <p>projects completed</p>
-//               <h2>100+</h2>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     `;
-
-//   harmburgerDeviceModal.style.display = "none";
-// });
