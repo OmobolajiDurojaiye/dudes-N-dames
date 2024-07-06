@@ -14,6 +14,8 @@
 
     <title>dudes N dames - Fashion Designer</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -99,7 +101,7 @@
 
       <section class="what-we-do">
         <!-- <h3 class="title">What We Do</h3> -->
-        <div class="box">
+        <div class="box" data-aos="fade-right">
           <img src="images/malefemale.png" alt="" />
           <h3>Male/Female Clothings</h3>
           <p>
@@ -108,7 +110,7 @@
             elegance.
           </p>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-left">
           <img src="images/pattern.png" alt="" />
           <h3>Pattern Drafting</h3>
           <p>
@@ -117,7 +119,7 @@
             unique style.
           </p>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-up-right">
           <img src="images/sewing-machine.png" alt="" />
           <h3>Traditional Attire</h3>
           <p>
@@ -126,7 +128,7 @@
             embracing modernity.
           </p>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-up-left">
           <img src="images/dress.png" alt="" />
           <h3>Kids Clothes</h3>
           <p>
@@ -138,7 +140,11 @@
         <!-- <a href="" class="bannerBtn">Learn More</a> -->
       </section>
 
-      <section class="experience">
+      <section
+        class="experience"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-center"
+      >
         <div class="experienceBox">
           <h1>4+</h1>
           <p>Years Of Experience</p>
@@ -157,7 +163,7 @@
         </div>
       </section>
 
-      <section class="prices">
+      <section class="prices" data-aos="zoom-in-up">
         <div class="priceHead">
           <i>Pricing</i>
           <h2>You will receive a stylish design at a budget-friendly cost</h2>
@@ -564,6 +570,10 @@
       </div>
     </div>
     <div class="overlay hidden"></div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="script.js"></script>
     <script src="nav.js"></script>
     <script type="application/ld+json">
