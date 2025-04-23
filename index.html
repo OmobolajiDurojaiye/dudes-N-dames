@@ -5,593 +5,808 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Fashion Designer offering customizable looks for men, women, and kids. Expert pattern drafting and traditional attire services."
+      content="DUDES 'N' DAMES - Luxury Fashion Designer offering customizable looks for men, women, and kids. Expert pattern drafting and traditional attire services."
     />
     <meta
       name="keywords"
-      content="Fashion, Designer, Customizable looks, Pattern drafting, Traditional attire, Kids clothes, Fashion designer in Abuja"
+      content="Fashion, Designer, Customizable looks, Pattern drafting, Traditional attire, Kids clothes, Fashion designer in Abuja, DUDES 'N' DAMES"
     />
 
-    <title>dudes N dames - Fashion Designer</title>
+    <title>DUDES 'N' DAMES | Luxury Fashion Designer</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Berkshire+Swash&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
   </head>
   <body>
-    <button id="scrollToTopBtn" title="Go to top">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
-        fill="currentColor"
-        class="bi bi-arrow-up"
-        viewBox="0 0 16 16"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"
-        />
-      </svg>
-    </button>
-
-    <header>
-      <div class="logo">
-        <a href=""
-          ><p>dudes <span>N</span> dames</p></a
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="logo-animation">
+        <span class="brand-name"
+          >DUDES <span class="accent">'N'</span> DAMES</span
         >
       </div>
+    </div>
 
-      <nav class="harmburgerDeviceModal">
+    <!-- Back to Top Button -->
+    <button id="scrollToTopBtn" title="Go to top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-container">
+        <div class="logo">
+          <a href="index.html">
+            <h1>DUDES <span class="accent">'N'</span> DAMES</h1>
+          </a>
+        </div>
+
+        <nav class="desktop-nav">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#about" class="about-link">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery" class="gallery-link">Gallery</a></li>
+            <li><a href="#cards">Business Cards</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation -->
+      <div class="mobile-nav">
+        <div class="close-menu">
+          <i class="fas fa-times"></i>
+        </div>
         <ul>
-          <li><a href="index.html">Homepage</a></li>
-          <li><a class="about">About</a></li>
-          <li><a class="gallery">Gallery</a></li>
-          <li><a class="socialMediaModal">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about" class="about-link">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery" class="gallery-link">Gallery</a></li>
+          <li><a href="#cards">Business Cards</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-        <span class="closeMenu"> &times; </span>
-      </nav>
-
-      <div class="menu">
-        <button class="menubtn">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-list"
-            viewBox="0 0 16 16"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
-            />
-          </svg>
-        </button>
+        <div class="mobile-socials">
+          <a
+            href="https://www.facebook.com/omotola.durojaiye.7?mibextid=ZbWKwL"
+            target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/thatgirl__omotola?igsh=MTI0ODVtMmVobHltMw=="
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://x.com/OmotolaDurojai1?t=LJEbgTI6O3YwnybAu6GDBw&s=09"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://pin.it/bRItmMQzx" target="_blank"
+            ><i class="fab fa-pinterest-p"></i
+          ></a>
+        </div>
       </div>
     </header>
 
-    <main class="main">
-      <section class="banner">
-        <div class="left banner-division">
-          <h1>
-            <span style="color: #cec097">Your Style,</span>
-            <i style="color: #bdceb4">Your Way</i>
-          </h1>
-          <p>
-            Customizable looks await. Let's create your signature style
-            together.
-          </p>
-          <!-- <a href="" class="bannerBtn">Clothing Collections</a> -->
-        </div>
-
-        <div class="right banner-division">
-          <img src="images/bannerImage.png" alt="" />
+    <!-- Main Content -->
+    <main id="main-content">
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="animate-text">Your Style, Your Way</h1>
+          <p class="animate-text delay-1">Luxury Fashion Tailored for You</p>
+          <a href="#services" class="btn btn-primary animate-text delay-2"
+            >Explore Our Services</a
+          >
         </div>
       </section>
 
-      <section class="what-we-do">
-        <!-- <h3 class="title">What We Do</h3> -->
-        <div class="box" data-aos="fade-up">
-          <img src="images/malefemale.png" alt="" />
-          <h3>Male/Female Clothings</h3>
-          <p>
-            Explore our diverse range of stylish and contemporary clothing for
-            both men and women. Our designs blend modern trends with timeless
-            elegance.
-          </p>
-        </div>
-        <div class="box" data-aos="fade-up">
-          <img src="images/pattern.png" alt="" />
-          <h3>Pattern Drafting</h3>
-          <p>
-            Our expert pattern drafting services ensure that each piece is
-            tailored to perfection, offering a custom fit that enhances your
-            unique style.
-          </p>
-        </div>
-        <div class="box" data-aos="fade-up">
-          <img src="images/sewing-machine.png" alt="" />
-          <h3>Traditional Attire</h3>
-          <p>
-            Celebrate heritage with our beautifully crafted traditional attire.
-            We offer a variety of cultural designs that honor tradition while
-            embracing modernity.
-          </p>
-        </div>
-        <div class="box" data-aos="fade-up">
-          <img src="images/dress.png" alt="" />
-          <h3>Kids Clothes</h3>
-          <p>
-            Dress your little ones in our adorable and durable kids' clothes.
-            Our collection features playful and practical designs perfect for
-            any occasion.
-          </p>
-        </div>
-        <!-- <a href="" class="bannerBtn">Learn More</a> -->
-      </section>
-
-      <section class="experience">
-        <div class="experienceBox">
-          <h1>4+</h1>
-          <p>Years Of Experience</p>
-        </div>
-        <!-- <div class="experienceBox">
-          <h1>100+</h1>
-          <p>Products Sold</p>
-        </div> -->
-        <div class="experienceBox">
-          <h1>95%</h1>
-          <p>Satisfied Customers</p>
-        </div>
-        <div class="experienceBox">
-          <h1>100+</h1>
-          <p>Projects Completed</p>
-        </div>
-      </section>
-
-      <section class="prices" data-aos="zoom-in-up">
-        <div class="priceHead">
-          <i>Pricing</i>
-          <h2>You will receive a stylish design at a budget-friendly cost</h2>
-          <hr
-            width="10%"
-            style="
-              height: 2px;
-              background-color: #bdceb4;
-              border: none;
-              margin-top: 2vh;
-            "
-          />
-        </div>
-
-        <div class="pricings">
-          <div class="pricingBox">
-            <h3>Personal</h3>
-            <p>
-              Expect to pay an at least ₦50,000 for only the sewing and design
-              of the attire -Meanwhile, it could go as high as ₦100,000 –
-              ₦350,000 if it includes the cost of the fabric as well.
-            </p>
-            <h1>&#x20A6;50,000</h1>
-            <hr
-              width="100%"
-              style="
-                height: 2px;
-                background-color: #bdceb4;
-                border: none;
-                margin-top: 2vh;
-              "
-            />
-
-            <ol>
-              <b>What you should expect:</b>
-              <li>
-                Work one-on-one with a designer to create a unique outfit
-                tailored to your personal style.
-              </li>
-              <li>
-                Quality stitching and a fitting session to ensure the perfect
-                fit.
-              </li>
-              <li>
-                Recommendations for fabrics that suit your design and budget.
-              </li>
-            </ol>
-            <a
-              href="https://wa.me/2349047153758?text=I%20am%20interested%20in%20the%20Personal%20category%20for%20clothing.%20Please%20provide%20more%20details."
-              target="_blank"
-              >Request Service</a
-            >
+      <!-- About Section -->
+      <section id="about" class="about-section section-padding">
+        <div class="container">
+          <div class="section-header">
+            <span class="subheading">About Us</span>
+            <h2>DUDES <span class="accent">'N'</span> DAMES</h2>
+            <div class="decorative-line"></div>
           </div>
-          <div class="pricingBox">
-            <h3>Professional</h3>
-            <p>
-              Expect to pay an at least 70,000 for only the sewing and design of
-              the attire -Meanwhile, it could go as high as ₦100,000 – ₦400,000
-              if it includes the cost of the fabric as well.
-            </p>
-            <h1>&#x20A6;70,000</h1>
-            <hr
-              width="100%"
-              style="
-                height: 2px;
-                background-color: #bdceb4;
-                border: none;
-                margin-top: 2vh;
-              "
-            />
-            <ol>
-              <b>What you should expect:</b>
-              <li>
-                In-depth discussions to refine your attire for professional
-                settings.
-              </li>
-              <li>
-                Precision sewing with multiple fitting sessions to ensure a
-                perfect, professional look.
-              </li>
-              <li>
-                Expert advice on selecting high-quality fabrics that enhance
-                your professional appearance.
-              </li>
-              <li>
-                Suggestions for coordinating accessories to complete your
-                professional ensemble.
-              </li>
-            </ol>
-            <a
-              href="https://wa.me/2349047153758?text=I%20am%20interested%20in%20the%20Professional%20category%20for%20clothing.%20Please%20provide%20more%20details."
-              target="_blank"
-              >Request Service</a
-            >
-          </div>
-          <div class="pricingBox">
-            <h3>Business</h3>
-            <p>
-              Expect to pay an at least 100,000 for only the sewing and design
-              of the attire -Meanwhile, it could go as high as ₦100,000 –
-              ₦400,000 if it includes the cost of the fabric as well.
-            </p>
-            <h1>&#x20A6;100,000</h1>
-            <hr
-              width="100%"
-              style="
-                height: 2px;
-                background-color: #bdceb4;
-                border: none;
-                margin-top: 2vh;
-              "
-            />
-            <ol>
-              <b>What you should expect:</b>
-              <li>
-                Extensive consultation to create a business attire that reflects
-                your brand and professionalism.
-              </li>
-              <li>
-                Top-tier sewing services with multiple fittings to ensure
-                impeccable tailoring.
-              </li>
-              <li>
-                Access to exclusive, high-end fabrics that elevate your business
-                attire.
-              </li>
-              <li>
-                Detailed guidance on integrating style elements and accessories
-                to present a cohesive and professional look.
-              </li>
-              <li>
-                Complimentary adjustments post-delivery to ensure the perfect
-                fit as you use the attire.
-              </li>
-            </ol>
-            <a
-              href="https://wa.me/2349047153758?text=I%20am%20interested%20in%20the%20Business%20category%20for%20clothing.%20Please%20provide%20more%20details."
-              target="_blank"
-              >Request Service</a
-            >
-          </div>
-        </div>
-      </section>
 
-      <section class="customerTestimonial">
-        <div class="customerTestimonialHead">
-          <p>What Our Customers Say</p>
-        </div>
-        <div class="textimonial">
-          <div class="testimonialBox">
-            <div class="head">
-              <img src="images/testimonial.png" alt="" />
-            </div>
-            <div class="content">
+          <div class="about-content">
+            <div class="about-text">
               <p>
-                I absolutely love this dress! The design is stunning and the fit
-                is perfect. Thank you so much!
+                Welcome to DUDES 'N' DAMES, where style meets innovation. Our
+                fashion house brings together the latest trends and timeless
+                classics, curated by visionary designers. Each piece is crafted
+                with meticulous attention to detail, ensuring you stand out with
+                confidence.
               </p>
-              <h3>-Adaugo</h3>
+
+              <div class="about-owner">
+                <div class="owner-image">
+                  <img src="images/testimonial.png" alt="Owner portrait" />
+                </div>
+                <div class="owner-info">
+                  <h3>Omotola</h3>
+                  <span class="owner-title">Founder & Creative Director</span>
+                  <p>
+                    Meet Omotola, the visionary behind DUDES 'N' DAMES. With a
+                    passion for fashion and a keen eye for detail, Omotola
+                    launched her fashion journey in 2021. Her dedication to
+                    excellence and creativity has led to the completion of over
+                    100 unique projects, each reflecting her commitment to
+                    quality and style.
+                  </p>
+
+                  <div class="achievements">
+                    <div class="achievement">
+                      <span class="number">4+</span>
+                      <span class="text">Years Experience</span>
+                    </div>
+                    <div class="achievement">
+                      <span class="number">100+</span>
+                      <span class="text">Projects Completed</span>
+                    </div>
+                    <div class="achievement">
+                      <span class="number">95%</span>
+                      <span class="text">Satisfied Clients</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="testimonialBox">
-            <div class="head">
-              <img src="images/testimonial.png" alt="" />
-            </div>
-            <div class="content">
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="services-section section-padding">
+        <div class="container">
+          <div class="section-header">
+            <span class="subheading">Our Services</span>
+            <h2>Tailored Excellence</h2>
+            <div class="decorative-line"></div>
+          </div>
+
+          <div class="services-grid">
+            <div class="service-card" data-aos="fade-up">
+              <div class="service-icon">
+                <i class="fas fa-user-tie"></i>
+              </div>
+              <h3>Male/Female Clothing</h3>
               <p>
-                You've gained a new loyal customer! My neighbor loved my dress
-                so much that she asked for your Instagram account.
+                Explore our diverse range of stylish and contemporary clothing
+                for both men and women. Our designs blend modern trends with
+                timeless elegance.
               </p>
-              <h3>-Lois</h3>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-icon">
+                <i class="fas fa-pencil-ruler"></i>
+              </div>
+              <h3>Pattern Drafting</h3>
+              <p>
+                Our expert pattern drafting services ensure that each piece is
+                tailored to perfection, offering a custom fit that enhances your
+                unique style.
+              </p>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-icon">
+                <i class="fas fa-vest"></i>
+              </div>
+              <h3>Traditional Attire</h3>
+              <p>
+                Celebrate heritage with our beautifully crafted traditional
+                attire. We offer a variety of cultural designs that honor
+                tradition while embracing modernity.
+              </p>
+            </div>
+
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-icon">
+                <i class="fas fa-child"></i>
+              </div>
+              <h3>Kids Clothes</h3>
+              <p>
+                Dress your little ones in our adorable and durable kids'
+                clothes. Our collection features playful and practical designs
+                perfect for any occasion.
+              </p>
             </div>
           </div>
-          <div class="testimonialBox">
-            <div class="head">
-              <img src="images/testimonial.png" alt="" />
+        </div>
+      </section>
+
+      <!-- Pricing Section -->
+      <section class="pricing-section section-padding">
+        <div class="container">
+          <div class="section-header">
+            <span class="subheading">Our Pricing</span>
+            <h2>Luxury Within Reach</h2>
+            <div class="decorative-line"></div>
+            <p class="section-description">
+              You will receive a stylish design at a budget-friendly cost
+            </p>
+          </div>
+
+          <div class="pricing-plans">
+            <div class="pricing-plan">
+              <div class="plan-header">
+                <h3>Personal</h3>
+                <div class="price">
+                  <span class="currency">₦</span>
+                  <span class="amount">50,000</span>
+                </div>
+                <p class="plan-description">For individual styling needs</p>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li>Work one-on-one with a designer</li>
+                  <li>Quality stitching and fitting session</li>
+                  <li>Recommendations for fabrics</li>
+                </ul>
+              </div>
+              <div class="plan-footer">
+                <a
+                  href="https://wa.me/2349047153758?text=I%20am%20interested%20in%20the%20Personal%20category%20for%20clothing.%20Please%20provide%20more%20details."
+                  target="_blank"
+                  class="btn btn-outline"
+                  >Request Service</a
+                >
+              </div>
+              <div class="plan-note">
+                <p>
+                  *Price includes only design and sewing. With fabric, may range
+                  from ₦100,000 - ₦350,000
+                </p>
+              </div>
             </div>
-            <div class="content">
-              <p>
-                Everyone admires my dress, all thanks to your incredible design
-                skills. Thank you, sister!
-              </p>
-              <h3>-Mrs Babatunde</h3>
+
+            <div class="pricing-plan featured">
+              <div class="plan-badge">Popular</div>
+              <div class="plan-header">
+                <h3>Professional</h3>
+                <div class="price">
+                  <span class="currency">₦</span>
+                  <span class="amount">70,000</span>
+                </div>
+                <p class="plan-description">For professional settings</p>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li>In-depth style consultations</li>
+                  <li>Multiple fitting sessions</li>
+                  <li>Expert fabric selection advice</li>
+                  <li>Accessory coordination</li>
+                </ul>
+              </div>
+              <div class="plan-footer">
+                <a
+                  href="https://wa.me/2349047153758?text=I%20am%20interested%20in%20the%20Professional%20category%20for%20clothing.%20Please%20provide%20more%20details."
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Request Service</a
+                >
+              </div>
+              <div class="plan-note">
+                <p>
+                  *Price includes only design and sewing. With fabric, may range
+                  from ₦100,000 - ₦400,000
+                </p>
+              </div>
             </div>
+
+            <div class="pricing-plan">
+              <div class="plan-header">
+                <h3>Business</h3>
+                <div class="price">
+                  <span class="currency">₦</span>
+                  <span class="amount">100,000</span>
+                </div>
+                <p class="plan-description">For premium business attire</p>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li>Extensive consultation</li>
+                  <li>Multiple premium fittings</li>
+                  <li>Access to exclusive fabrics</li>
+                  <li>Styling guidance</li>
+                  <li>Complimentary adjustments</li>
+                </ul>
+              </div>
+              <div class="plan-footer">
+                <a
+                  href="https://wa.me/2349047153758?text=I%20am%20interested%20in%20the%20Business%20category%20for%20clothing.%20Please%20provide%20more%20details."
+                  target="_blank"
+                  class="btn btn-outline"
+                  >Request Service</a
+                >
+              </div>
+              <div class="plan-note">
+                <p>
+                  *Price includes only design and sewing. With fabric, may range
+                  from ₦100,000 - ₦400,000
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section id="gallery" class="gallery-section section-padding">
+        <div class="container">
+          <div class="section-header">
+            <span class="subheading">Our Portfolio</span>
+            <h2>Gallery</h2>
+            <div class="decorative-line"></div>
+            <p class="section-description">
+              Explore our collection of stunning designs
+            </p>
+          </div>
+
+          <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="men">Men</button>
+            <button class="filter-btn" data-filter="women">Women</button>
+            <button class="filter-btn" data-filter="traditional">
+              Traditional
+            </button>
+            <button class="filter-btn" data-filter="kids">Kids</button>
+          </div>
+
+          <div class="gallery-grid">
+            <div class="gallery-item" data-category="women">
+              <img src="images/7.jpg" alt="Women's Fashion" />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <h3>Elegant Evening Gown</h3>
+                  <p>Women's Collection</p>
+                  <span class="view-icon"><i class="fas fa-eye"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="men">
+              <img src="images/2.jpg" alt="Men's Fashion" />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <h3>Business Attire</h3>
+                  <p>Men's Collection</p>
+                  <span class="view-icon"><i class="fas fa-eye"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="traditional">
+              <img src="images/8.jpg" alt="Traditional Attire" />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <h3>Cultural Celebration</h3>
+                  <p>Traditional Collection</p>
+                  <span class="view-icon"><i class="fas fa-eye"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="women">
+              <img src="images/10.jpg" alt="Women's Fashion" />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <h3>Summer Elegance</h3>
+                  <p>Women's Collection</p>
+                  <span class="view-icon"><i class="fas fa-eye"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="men">
+              <img src="images/1.jpg" alt="Men's Fashion" />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <h3>Modern Suit</h3>
+                  <p>Men's Collection</p>
+                  <span class="view-icon"><i class="fas fa-eye"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="traditional">
+              <img src="images/5.jpg" alt="Traditional Attire" />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <h3>Heritage Design</h3>
+                  <p>Traditional Collection</p>
+                  <span class="view-icon"><i class="fas fa-eye"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="kids">
+              <img src="images/4.jpg" alt="Kids Fashion" />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <h3>Playful Elegance</h3>
+                  <p>Kids Collection</p>
+                  <span class="view-icon"><i class="fas fa-eye"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="women">
+              <img src="images/3.jpg" alt="Women's Fashion" />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <h3>Contemporary Style</h3>
+                  <p>Women's Collection</p>
+                  <span class="view-icon"><i class="fas fa-eye"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="traditional">
+              <img src="images/9.jpg" alt="Traditional Attire" />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <h3>Festive Ensemble</h3>
+                  <p>Traditional Collection</p>
+                  <span class="view-icon"><i class="fas fa-eye"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="men">
+              <img src="images/6.jpg" alt="Men's Fashion" />
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <h3>Casual Sophistication</h3>
+                  <p>Men's Collection</p>
+                  <span class="view-icon"><i class="fas fa-eye"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery Modal -->
+        <div id="gallery-modal" class="modal">
+          <span class="modal-close">&times;</span>
+          <img class="modal-content" id="modal-image" />
+          <div class="modal-caption">
+            <h3 id="modal-title"></h3>
+            <p id="modal-category"></p>
+          </div>
+          <div class="modal-nav">
+            <button id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button id="next-btn"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Business Cards Section -->
+      <section id="cards" class="cards-section section-padding">
+        <div class="container">
+          <div class="section-header">
+            <span class="subheading">Our Identity</span>
+            <h2>Business Cards</h2>
+            <div class="decorative-line"></div>
+            <p class="section-description">
+              Download our business cards for your convenience
+            </p>
+          </div>
+
+          <div class="cards-container">
+            <div class="card-item">
+              <div class="card-image">
+                <img src="images/ladieFront.png" alt="Business Card 1 Front" />
+                <div class="card-overlay">
+                  <a
+                    href="images/ladieFront.png"
+                    download="DUDES_N_DAMES_Card1_Front"
+                    class="download-btn"
+                  >
+                    <i class="fas fa-download"></i> Download
+                  </a>
+                </div>
+              </div>
+              <div class="card-info">
+                <h3>Ladies Card - Front</h3>
+              </div>
+            </div>
+
+            <div class="card-item">
+              <div class="card-image">
+                <img src="images/ladiesBack.png" alt="Business Card 1 Back" />
+                <div class="card-overlay">
+                  <a
+                    href="images/ladiesBack.png"
+                    download="DUDES_N_DAMES_Card1_Back"
+                    class="download-btn"
+                  >
+                    <i class="fas fa-download"></i> Download
+                  </a>
+                </div>
+              </div>
+              <div class="card-info">
+                <h3>Ladies Card - Back</h3>
+              </div>
+            </div>
+
+            <div class="card-item">
+              <div class="card-image">
+                <img src="images/menFront.png" alt="Business Card 2 Front" />
+                <div class="card-overlay">
+                  <a
+                    href="images/menFront.png"
+                    download="DUDES_N_DAMES_Card2_Front"
+                    class="download-btn"
+                  >
+                    <i class="fas fa-download"></i> Download
+                  </a>
+                </div>
+              </div>
+              <div class="card-info">
+                <h3>Men Card - Front</h3>
+              </div>
+            </div>
+
+            <div class="card-item">
+              <div class="card-image">
+                <img src="images/menBack.png" alt="Business Card 2 Back" />
+                <div class="card-overlay">
+                  <a
+                    href="images/menBack.png"
+                    download="DUDES_N_DAMES_Card2_Back"
+                    class="download-btn"
+                  >
+                    <i class="fas fa-download"></i> Download
+                  </a>
+                </div>
+              </div>
+              <div class="card-info">
+                <h3>Men Card - Back</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section class="testimonials-section section-padding">
+        <div class="container">
+          <div class="section-header">
+            <span class="subheading">Client Feedback</span>
+            <h2>Testimonials</h2>
+            <div class="decorative-line"></div>
+          </div>
+
+          <div class="testimonials-slider" id="testimonials-slider">
+            <div class="testimonial-item">
+              <div class="testimonial-content">
+                <div class="quote-icon">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">
+                  I absolutely love this dress! The design is stunning and the
+                  fit is perfect. Thank you so much!
+                </p>
+                <div class="testimonial-author">
+                  <img
+                    src="images/testimonial.png"
+                    alt="Adaugo"
+                    class="author-image"
+                  />
+                  <div class="author-info">
+                    <h4>Adaugo</h4>
+                    <span class="author-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-item">
+              <div class="testimonial-content">
+                <div class="quote-icon">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">
+                  You've gained a new loyal customer! My neighbor loved my dress
+                  so much that she asked for your Instagram account.
+                </p>
+                <div class="testimonial-author">
+                  <img
+                    src="images/testimonial.png"
+                    alt="Lois"
+                    class="author-image"
+                  />
+                  <div class="author-info">
+                    <h4>Lois</h4>
+                    <span class="author-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-item">
+              <div class="testimonial-content">
+                <div class="quote-icon">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <p class="testimonial-text">
+                  Everyone admires my dress, all thanks to your incredible
+                  design skills. Thank you, sister!
+                </p>
+                <div class="testimonial-author">
+                  <img
+                    src="images/testimonial.png"
+                    alt="Mrs Babatunde"
+                    class="author-image"
+                  />
+                  <div class="author-info">
+                    <h4>Mrs Babatunde</h4>
+                    <span class="author-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-controls">
+            <button id="prev-testimonial">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="testimonial-indicators">
+              <span class="indicator active"></span>
+              <span class="indicator"></span>
+              <span class="indicator"></span>
+            </div>
+            <button id="next-testimonial">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact CTA Section -->
+      <section id="contact" class="contact-cta section-padding">
+        <div class="container">
+          <div class="cta-content">
+            <h2>Let's Talk Fashion</h2>
+            <p>
+              Have a project in mind? Discuss your fashion ideas with us, we'd
+              love to bring your vision to life.
+            </p>
+            <a
+              href="https://wa.me/2349047153758?text=Hello!%20I%20am%20interested%20in%20discussing%20my%20fashion%20ideas%20and%20requesting%20your%20services.%20Please%20provide%20more%20details."
+              target="_blank"
+              class="btn btn-primary"
+              >Get in Touch</a
+            >
           </div>
         </div>
       </section>
     </main>
 
-    <footer>
-      <div class="section">
-        <h2>Let's Talk Fashion</h2>
-        <p>
-          Click the button below to discuss some of your fashion ideas with us,
-          we'd love to bring your ideas to fruition.
-        </p>
-        <a
-          href="https://wa.me/2349047153758?text=Hello!%20I%20am%20interested%20in%20discussing%20my%20fashion%20ideas%20and%20requesting%20your%20services.%20Please%20provide%20more%20details."
-          target="_blank"
-          class="letstalk"
-          >Let's Talk</a
-        >
-      </div>
-      <div class="section">
-        <h2>Address</h2>
-        <p>
-          Plot 681, Cadastral Zone C, OO, Research & Institution Area, Airport
-          Road, Jabi, Abuja 900108, Federal Capital Territory
-        </p>
-        <div class="footersocial">
-          <div class="box">
-            <a
-              href="https://www.facebook.com/omotola.durojaiye.7?mibextid=ZbWKwL"
-              target="_blank"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-facebook"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
-                />
-              </svg>
-            </a>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <div class="footer-logo">
+              <h2>DUDES <span class="accent">'N'</span> DAMES</h2>
+            </div>
+            <p>
+              Luxury fashion designs tailored to your unique style. We combine
+              traditional craftsmanship with modern aesthetics to create
+              timeless pieces.
+            </p>
+            <div class="footer-social">
+              <a
+                href="https://www.facebook.com/omotola.durojaiye.7?mibextid=ZbWKwL"
+                target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/thatgirl__omotola?igsh=MTI0ODVtMmVobHltMw=="
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://x.com/OmotolaDurojai1?t=LJEbgTI6O3YwnybAu6GDBw&s=09"
+                target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://pin.it/bRItmMQzx" target="_blank"
+                ><i class="fab fa-pinterest-p"></i
+              ></a>
+            </div>
           </div>
-          <div class="box">
-            <a
-              href="https://x.com/OmotolaDurojai1?t=LJEbgTI6O3YwnybAu6GDBw&s=09"
-              target="_blank"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-twitter-x"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"
-                />
-              </svg>
-            </a>
+
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#cards">Business Cards</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
           </div>
-          <div class="box">
-            <a href="https://pin.it/bRItmMQzx" target="_blank">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-pinterest"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0"
-                />
-              </svg>
-            </a>
-          </div>
-          <div class="box">
-            <a
-              href="https://www.instagram.com/thatgirl__omotola?igsh=MTI0ODVtMmVobHltMw=="
-              target="_blank"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-instagram"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
-                />
-              </svg>
-            </a>
+
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <ul class="footer-contact">
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <p>
+                  Plot 681, Cadastral Zone C, OO, Research & Institution Area,
+                  Airport Road, Jabi, Abuja 900108, FCT
+                </p>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <p><a href="tel:+2349047153758">+234 904 715 3758</a></p>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <p>
+                  <a href="mailto:omotoladurojaiye6@gmail.com"
+                    >omotoladurojaiye6@gmail.com</a
+                  >
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-      <div class="section">
-        <h2>Contact</h2>
-        <p>Reach out to me below</p>
-        <ul class="contact-list">
-          <li class="contact-item">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-telephone-fill"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
-              />
-            </svg>
-            <span
-              ><a
-                href="tel:+2349047153758"
-                style="color: white; text-decoration: underline"
-                >Call Us</a
-              ></span
-            >
-          </li>
-          <li class="contact-item">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-envelope-paper-fill"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M6.5 9.5 3 7.5v-6A1.5 1.5 0 0 1 4.5 0h7A1.5 1.5 0 0 1 13 1.5v6l-3.5 2L8 8.75zM1.059 3.635 2 3.133v3.753L0 5.713V5.4a2 2 0 0 1 1.059-1.765M16 5.713l-2 1.173V3.133l.941.502A2 2 0 0 1 16 5.4zm0 1.16-5.693 3.337L16 13.372v-6.5Zm-8 3.199 7.941 4.412A2 2 0 0 1 14 16H2a2 2 0 0 1-1.941-1.516zm-8 3.3 5.693-3.162L0 6.873v6.5Z"
-              />
-            </svg>
-            <span>omotoladurojaiye6@gmail.com</span>
-          </li>
-        </ul>
+
+        <div class="footer-bottom">
+          <div class="copyright">
+            <p>&copy; 2025 DUDES 'N' DAMES. All Rights Reserved.</p>
+          </div>
+          <div class="designer-credit">
+            <p>
+              Made with <i class="fas fa-heart"></i> by
+              <a href="https://omobolajidurojaiye.tech/" target="_blank">B</a>
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
-    <section class="devrefrence">
-      <div class="refrence">
-        <p>&copy; Copyright 2024 dudes N dames</p>
-      </div>
-      <div class="refrence">
-        <p style="text-align: right">
-          Made with &#128156; by
-          <a
-            href="https://omobolajidurojaiye.tech/"
-            target="_blank"
-            style="color: plum; font-weight: bolder; font-size: 1.5em"
-            >B</a
-          >
-        </p>
-      </div>
-    </section>
-    <!--SocialMediaModal-->
-    <div class="ModalContainer hidden">
-      <button class="close-modal">&times;</button>
-      <div class="contact-head">
-        <h2>Contact Us</h2>
-        <p>Click on the icons below to reach out to us via social media</p>
-      </div>
-      <div class="contact-body">
-        <div class="box">
-          <a
-            href="https://www.facebook.com/omotola.durojaiye.7?mibextid=ZbWKwL"
-            target="_blank"
-          >
-            <img src="icons/facebook.png" />
-          </a>
-        </div>
-        <div class="box">
-          <a
-            href="https://www.instagram.com/thatgirl__omotola?igsh=MTI0ODVtMmVobHltMw=="
-            target="_blank"
-          >
-            <img src="icons/instagram.png" />
-          </a>
-        </div>
-        <div class="box">
-          <a
-            href="https://x.com/OmotolaDurojai1?t=LJEbgTI6O3YwnybAu6GDBw&s=09"
-            target="_blank"
-          >
-            <img src="icons/twitter.png" />
-          </a>
-        </div>
-        <div class="box">
-          <a href="https://pin.it/bRItmMQzx" target="_blank">
-            <img src="icons/pinterest.png" />
-          </a>
-        </div>
-      </div>
-      <div class="also-reach-through">
-        <h3>You can also reach out to us through:</h3>
-        <div class="reach">
-          <div class="box">
-            <img src="icons/mail.png" alt="" />
-            <span>omotoladurojaiye6@gmail.com</span>
-          </div>
-          <div class="box">
-            <img src="icons/phone.png" />
-            <span
-              ><a
-                href="tel:+2349047153758"
-                style="color: black; text-decoration: underline"
-                target="_blank"
-                >Call Us</a
-              ></span
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="overlay hidden"></div>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+
+    <!-- Scripts -->
     <script src="script.js"></script>
-    <script src="nav.js"></script>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "dudes N dames",
-        "image": "images/bannerImage.png",
-        "@id": "",
-        "url": "",
-        "telephone": "+2349047153758",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Plot 681, Cadastral Zone C, OO, Research & Institution Area, Airport Road, Jabi, Abuja 900108, Federal Capital Territory"
-        },
-        "sameAs": [
-          "https://www.facebook.com/omotola.durojaiye.7?mibextid=ZbWKwL",
-          "https://x.com/OmotolaDurojai1?t=LJEbgTI6O3YwnybAu6GDBw&s=09",
-          "https://pin.it/bRItmMQzx",
-          "https://www.instagram.com/thatgirl__omotola?igsh=MTI0ODVtMmVobHltMw=="
-        ]
-      }
-    </script>
   </body>
 </html>
