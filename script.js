@@ -1,7 +1,5 @@
 "use strict";
 
-// DUDES 'N' DAMES - Fashion Website JavaScript
-
 document.addEventListener("DOMContentLoaded", function () {
   // Preloader
   setTimeout(function () {
